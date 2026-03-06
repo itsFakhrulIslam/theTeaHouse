@@ -1,0 +1,106 @@
+@media screen and (max-width: 576px) {
+  .bannerWrapper {
+    min-height: 60vh;
+    grid-template-areas:
+      "image"
+      "info";
+
+    .image {
+      .ratingDiv {
+        width: 220px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 10px;
+        cursor: pointer;
+        border-radius: 10px;
+        background-image: linear-gradient(
+          to right,
+          #ff512f 0%,
+          #dd2476 51%,
+          #ff512f 100%
+        );
+
+        .fa-star {
+          color: gold;
+          font-size: 1.5rem;
+        }
+
+        .rateInfo {
+          .rateInfoPara1 {
+            font-size: 2rem;
+            font-weight: 500;
+          }
+          .rateInfoPara2 {
+            font-size: 1.2rem;
+            font-weight: 300;
+          }
+        }
+      }
+    }
+
+    .info {
+      padding: 20px;
+
+      .infoHead {
+        font-size: 2.5rem;
+        text-align: center;
+        letter-spacing: -1px;
+        line-height: 85%;
+      }
+
+      .infopara{
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        line-height: 90%;
+      }
+
+      .infoBtn{
+        padding: 10px 20px;
+        font-size: 1.3rem;
+        border-radius: 5px;
+        border: none;
+        background: skyblue;
+      }
+
+    }
+  }
+}
+
+@media screen and (min-width: 577px) {
+  .bannerWrapper {
+    background: purple;
+    grid-template-areas:
+      "image"
+      "info";
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .bannerWrapper {
+    background: burlywood;
+    grid-template-areas: "info image";
+  }
+}
+
+@media screen and (min-width: 993px) {
+  .bannerWrapper {
+    background: goldenrod;
+    grid-template-areas: "info image";
+  }
+}
+
+@media screen and (min-width: 1201px) {
+  .bannerWrapper {
+    background: greenyellow;
+    grid-template-areas: "info image";
+  }
+}
+
+@media screen and (min-width: 1401px) {
+  .bannerWrapper {
+    background: rgb(137, 47, 255);
+    grid-template-areas: "info image";
+  }
+}
