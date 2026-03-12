@@ -238,14 +238,54 @@ body {
       font-size: 4rem;
     }
 
-    .unProInfoPara{
+    .unProInfoPara {
       font-size: 1.2rem;
       font-weight: 300;
       line-height: 90%;
     }
 
-    .unProInfosHead{
+    .unProInfosHead {
       font-size: 2.5rem;
+    }
+  }
+}
+
+.clientWrapper {
+  background: rgba(128, 0, 128, 0.483);
+  max-width: 90%;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+
+  .clientInfo {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .clientInfoHead {
+      font-size: 3.5rem;
+    }
+
+    .btn {
+      button {
+        width: 30%;
+        padding: 5% 10%;
+      }
+    }
+  }
+
+  .clientArea {
+    width: 50%;
+    height: 300px;
+    position: relative;
+
+    .client3 {
+      position: absolute;
+      top: 10%;
+      left: 40%;
     }
   }
 }
