@@ -1,0 +1,5 @@
+main site
+https://jazzy-jalebi-cb7869.netlify.app
+
+important links
+https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Properties/grid-column-start
