@@ -261,7 +261,8 @@ body {
   gap: 20px;
 
   .clientInfo {
-    width: 45%;
+    border: 2px solid;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -279,13 +280,16 @@ body {
   }
 
   .clientArea {
-    width: 45%;
+    width: 50%;
+    padding-left: 190px;
     position: relative;
     display: flex;
     flex-direction: column;
+    justify-items: end;
     gap: 2rem;
 
     .client {
+      width: 600px;
       background: white;
       border-radius: 10px;
       position: relative;
@@ -319,11 +323,20 @@ body {
       }
     }
 
+    .client1,
+    .client2 {
+      opacity: 40%;
+    }
+
     .client3 {
-      border: 2px solid;
       position: absolute;
       top: 25%;
-      left: -10%;
+      left: 10%;
     }
   }
+}
+
+footer {
+  max-width: 90%;
+  margin: 0 auto;
 }
