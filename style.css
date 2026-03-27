@@ -379,6 +379,7 @@ footer {
         border-radius: 10px;
         border: none;
         background: #8000807b;
+        cursor: pointer;
       }
     }
   }
