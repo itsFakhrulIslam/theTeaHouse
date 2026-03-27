@@ -257,10 +257,11 @@ body {
   padding: 2rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 20px;
 
   .clientInfo {
-    width: 50%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -278,14 +279,51 @@ body {
   }
 
   .clientArea {
-    width: 50%;
-    height: 300px;
+    width: 45%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    .client {
+      background: white;
+      border-radius: 10px;
+      position: relative;
+      padding: 1.5rem 3rem;
+
+      .clientImg {
+        border: 5px solid white;
+        border-radius: 70%;
+        position: absolute;
+        top: -5%;
+        left: -5%;
+      }
+
+      .clientInfoDiv {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        position: relative;
+
+        .clientInfoPara {
+          font-size: 1.2rem;
+          font-weight: 300;
+        }
+
+        .circles {
+          position: absolute;
+          bottom: 0%;
+          right: 0%;
+        }
+      }
+    }
 
     .client3 {
+      border: 2px solid;
       position: absolute;
-      top: 10%;
-      left: 40%;
+      top: 25%;
+      left: -10%;
     }
   }
 }
