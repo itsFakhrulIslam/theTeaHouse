@@ -110,8 +110,37 @@
       }
     }
   }
-}
 
+  .underProductWrapper {
+    grid-template-areas:
+      "upi"
+      "upim";
+
+    .unProImage {
+      grid-area: upim;
+    }
+
+    .unProInfo {
+      grid-area: upi;
+
+      .unProInfoHead {
+        font-size: 1.5rem;
+        line-height: 90%;
+      }
+
+      .unProInfoPara {
+        font-size: 14px;
+        font-weight: 300;
+      }
+
+      .unProInfosHead {
+        font-size: 1.2rem;
+        line-height: 90%;
+      }
+    }
+  }
+}
+/* 
 @media screen and (min-width: 577px) {
   .bannerWrapper {
     background: purple;
@@ -147,4 +176,4 @@
     background: rgb(137, 47, 255);
     grid-template-areas: "info image";
   }
-}
+} */
