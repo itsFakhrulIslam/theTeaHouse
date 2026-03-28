@@ -17,7 +17,7 @@ body {
 .bannerWrapper {
   max-width: 90%;
   min-height: 100vh;
-  margin: 0 auto;
+  margin: 100px auto;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: "info image";
@@ -112,6 +112,33 @@ body {
     }
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .productWrapper {
   max-width: 90%;
