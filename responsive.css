@@ -89,6 +89,10 @@
     }
 
     .productItems {
+      img {
+        width: 100px;
+      }
+
       .productItem {
         padding: 5px;
 
